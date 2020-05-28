@@ -100,11 +100,8 @@ module.exports = async (callback) => {
       PRESALE_PERCENT_SUPPLY_OFFERED,
       PRESALE_PERCENT_FUNDING_FOR_BENEFICIARY,
       OPEN_DATE,
-      BATCH_BLOCKS,
       BUY_FEE_PCT,
-      SELL_FEE_PCT,
-      MAXIMUM_TAP_RATE_INCREASE_PCT,
-      MAXIMUM_TAP_FLOOR_DECREASE_PCT
+      SELL_FEE_PCT
     )
     console.log(`Tx two Complete. Gas used: ${createDaoTxThreeReceipt.receipt.gasUsed}`)
 
@@ -112,10 +109,7 @@ module.exports = async (callback) => {
       daoId(),
       VIRTUAL_SUPPLY,
       VIRTUAL_BALANCE,
-      RESERVE_RATIO,
-      SLIPPAGE,
-      TAP_RATE_PER_BLOCK,
-      TAP_FLOOR
+      RESERVE_RATIO
     )
     console.log(`Tx thre Complete. Gas used: ${createDaoTxFourReceipt.receipt.gasUsed}`)
 

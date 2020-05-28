@@ -10,7 +10,7 @@
     },
     "rinkeby": {
       "appName": "gardens-template.aragonpm.eth",
-      "address": "0x72cbf7908d36160041c91165c07dc2eb54f6ffc6",
+      "address": "0x7522f357181817e3249682767956b272c12743b0",
       "network": "rinkeby",
       "registry": "0x98Df287B6C145399Aaa709692c8D308357bC085D"
     }
